@@ -1,0 +1,10 @@
+12:41:23 **** Incremental Build of configuration Debug for project L432KC_Fuzzy ****
+make -j8 all 
+arm-none-eabi-size  L432KC_Fuzzy.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15592	    112	   2048	  17752	   4558	L432KC_Fuzzy.elf
+Finished building: default.size.stdout
+ 
+
+12:41:24 Build Finished. 0 errors, 0 warnings. (took 501ms)
+

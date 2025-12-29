@@ -1,0 +1,11 @@
+../Fuzzy_Library/Fuzzy.c:11:6:inicio	24	static
+../Fuzzy_Library/Fuzzy.c:17:6:borrar	24	static
+../Fuzzy_Library/Fuzzy.c:23:5:calc_size	32	static
+../Fuzzy_Library/Fuzzy.c:29:6:regla_simple	48	static
+../Fuzzy_Library/Fuzzy.c:48:6:regla_compuesta2	72	static
+../Fuzzy_Library/Fuzzy.c:81:6:regla_compuesta3	88	static
+../Fuzzy_Library/Fuzzy.c:130:7:absoluto	24	static
+../Fuzzy_Library/Fuzzy.c:141:7:triangular	40	static
+../Fuzzy_Library/Fuzzy.c:166:7:trapezoidal	40	static
+../Fuzzy_Library/Fuzzy.c:194:6:inferencia_mamdani2	168	dynamic
+../Fuzzy_Library/Fuzzy.c:302:7:defusi	88	dynamic

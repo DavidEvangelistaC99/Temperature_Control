@@ -1,0 +1,7 @@
+PINOUT
+https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/hw-reference/esp32/get-started-devkitc.html
+
+https://blog.kamlatech.in/2023/01/hooking-up-max-31856-with-iot-ready-esp.html
+
+CONTROL ON-OFF
+https://www.youtube.com/watch?v=c1iF9R_D9rY
