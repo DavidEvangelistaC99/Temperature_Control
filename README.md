@@ -9,8 +9,8 @@
 </p>
 
 ## Overview
-This repository contains the experimental and final implementation scripts for an on–off temperature control system developed for the payload flown in the HELIOS HASP 2024 project. The system was designed and validated within the Control and Electronics area of the payload, with the primary objective of ensuring thermal stability during a high-altitude stratospheric balloon mission.
-
+This repository contains the experimental and final implementation scripts for an on–off temperature control system developed for the payload flown in the HELIOS HASP 2024 project.<br><br> 
+The system was designed and validated within the Control and Electronics area of the payload, with the primary objective of ensuring thermal stability during a high-altitude stratospheric balloon mission.
 The HELIOS project was conceived to study the behavior and performance of perovskite solar cells under stratospheric environmental conditions. At altitudes above 30 km, electronic systems are exposed to extreme thermal gradients, low atmospheric pressure, and intense solar radiation. Under these conditions, temperature regulation becomes critical to preserve sensor accuracy, ensure repeatable measurements, and maintain the operational integrity of the onboard electronics throughout the mission.
 
 ## Scientific Context
