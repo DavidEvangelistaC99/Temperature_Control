@@ -1,5 +1,13 @@
 # On–Off Temperature Control System for the HELIOS HASP 2024 Payload
 
+<p align="center">
+  <img src="images/REFERENCE.png" width="900">
+</p>
+
+<p align="center">
+  <em>Stratospheric view of the HELIOS HASP UNI payload during high-altitude flight.</em>
+</p>
+
 ## Overview
 This repository contains the experimental and final implementation scripts for an on–off temperature control system developed for the payload flown in the HELIOS HASP 2024 project. The system was designed and validated within the Control and Electronics area of the payload, with the primary objective of ensuring thermal stability during a high-altitude stratospheric balloon mission.
 
@@ -54,6 +62,14 @@ Programming Languages:
 
 Libraries:
 - MAX31865 sensor library
+
+## Key Resources and Links
+
+1. **StratoCat – High-Altitude Balloon Flight Database**  
+   Public database providing detailed documentation, imagery, and metadata of
+   scientific high-altitude balloon missions, including the HASP 2024 flight.
+   Image used in this repository was sourced from the corresponding mission page.  
+   https://stratocat.com.ar/fichas-e/2024/FSU-20240904.htm
 
 ## Author
 David Fernando Evangelista Cuti  
