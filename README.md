@@ -24,9 +24,8 @@ On–off control is one of the simplest and most robust control strategies for e
 The implemented system is a closed-loop temperature control system. A reference temperature is defined, and the actual temperature is measured using a thermocouple interfaced through a MAX31865 signal conditioning sensor. The sensor is connected to an ESP32 microcontroller, which executes the control logic. Based on the temperature error relative to the reference, the ESP32 activates or deactivates a set of heating pads that act as thermal actuators. These heating elements are driven through a power driver stage, allowing the system to maintain the payload temperature within an acceptable operating range during laboratory testing and simulated flight conditions.
 
 ## Results
-Initial laboratory tests were conducted using a fuzzy logic temperature control strategy. A reference temperature of 45 °C was established, and stable temperature regulation was achieved. However, the settling time of the fuzzy controller was excessively long for the intended application.
-
-As a result, an on–off control strategy was adopted. A new reference temperature of 25 °C was selected, and the on–off controller demonstrated improved performance, achieving faster settling times and more efficient temperature regulation under laboratory conditions. These results justified the selection of the on–off control approach for the final payload implementation.
+- Initial laboratory tests were conducted using a fuzzy logic temperature control strategy. A reference temperature of 45 °C was established, and stable temperature regulation was achieved. However, the settling time of the fuzzy controller was excessively long for the intended application.
+- As a result, an on–off control strategy was adopted. A new reference temperature of 25 °C was selected, and the on–off controller demonstrated improved performance, achieving faster settling times and more efficient temperature regulation under laboratory conditions. These results justified the selection of the on–off control approach for the final payload implementation.
 
 ## Repository Structure
 - `code/`: final firmware and experimental scripts written in C for STM32 microcontroller cores
