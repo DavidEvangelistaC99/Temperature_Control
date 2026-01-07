@@ -31,14 +31,14 @@ Initial laboratory tests were conducted using a fuzzy logic temperature control 
 As a result, an on–off control strategy was adopted. A new reference temperature of 25 °C was selected, and the on–off controller demonstrated improved performance, achieving faster settling times and more efficient temperature regulation under laboratory conditions. These results justified the selection of the on–off control approach for the final payload implementation.
 
 ## Repository Structure
-- code/: Final firmware and experimental scripts written in C for STM32 microcontroller cores
-- datasheets/: Datasheets for sensors, microcontrollers, and communication modules
-- documentation/: Technical documentation describing sensor operation, hardware configuration, and firmware usage
-- legacy/: Early experimental scripts and preliminary development versions
-- libraries/: Fuzzy control and sensor interface libraries used during development
-- papers/: Reference articles and technical papers reviewed during the project
-- pinout/: Verified pinout diagrams for the employed STM32 NUCLEO boards
-- results/: Experimental results obtained from temperature control tests and data acquisition
+- `code/`: final firmware and experimental scripts written in C for STM32 microcontroller cores
+- `datasheets/`: datasheets for sensors, microcontrollers, and communication modules
+- `documentation/`: technical documentation describing sensor operation, hardware configuration, and firmware usage
+- `leagcy/`: early experimental scripts and preliminary development versions
+- `libraries/`: fuzzy control and sensor interface libraries used during development
+- `papers/`: reference articles and technical papers reviewed during the project
+- `pinout/`: verified pinout diagrams for the employed STM32 NUCLEO boards
+- `results/`: experimental results obtained from temperature control tests and data acquisition
 
 ## Hardware Setup
 - STM32 NUCLEO-F446RE
@@ -52,16 +52,16 @@ As a result, an on–off control strategy was adopted. A new reference temperatu
 - Digital multimeter
 
 ## Requirements
-IDEs:
-- STM32CubeIDE
-- Arduino IDE
+- **IDEs**:
+  - STM32CubeIDE
+  - Arduino IDE
 
-Programming Languages:
-- C
-- C++
+- **Programming Languages**:
+  - C
+  - C++
 
-Libraries:
-- MAX31865 sensor library
+- **Libraries**:
+  - MAX31865 sensor library
 
 ## Key Resources and Links
 
