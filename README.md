@@ -69,5 +69,5 @@ The implemented system is a closed-loop temperature control system. A reference 
    https://stratocat.com.ar/fichas-e/2024/FSU-20240904.htm
 
 ## Author
-**David Fernando Evangelista Cuti**
+**David Fernando Evangelista Cuti**<br>
 National University of Engineering (UNI), Peru
